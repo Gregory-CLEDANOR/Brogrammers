@@ -1,0 +1,611 @@
+*{margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Snell Roundhand, cursive;
+    background: linear-gradient(to bottom, #a6bec1, #fafafa);
+    margin-top: 20px;
+}
+
+
+nav{
+    margin-top: -3em;
+}
+
+nav ul li a:hover{
+    color: blue;
+    font-size:15px;
+}
+
+
+.field
+{
+    
+    background-color:aliceblue;
+    display:flex;
+    height:30px;
+    align-items: center;
+    justify-content: center;
+    padding:0 5%;
+    width: 90em;
+    border-radius: 3em;
+    position: fixed;
+}
+
+.field ul
+{
+    list-style: none;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.field ul li
+{
+    display:inline-block;
+    padding: 0px 15px;
+    position:relative;
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.field ul li a
+{
+    display:inline-block;
+    color:black;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:sans-serif;
+    text-align: center;
+}
+
+
+.field ul li ul.drop li
+{
+   display:block; 
+   text-align: left;
+   color:darkturquoise;
+}
+
+
+.field ul li ul.drop
+{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:auto;
+    position:absolute;
+    background-color:aliceblue;
+    display:none;
+    text-align: center;
+    border-radius: 7px;
+    border-style: ridge;
+    border-top: none;
+}
+
+
+.drop{
+    padding-left: 2px;
+}
+
+.drop li
+{
+    display:block;
+    margin-left:0;
+
+}
+
+ul li:hover ul.drop
+{
+    display:block;
+}
+
+
+
+
+
+#image {
+    margin-top: 15px;
+    height: 250px;
+    border-radius: 10px;
+    background: url('images/plage.jpg') no-repeat;
+    background-size: cover;
+    box-shadow: 0px 8px 4px #1c1a19;
+    margin-bottom: 20px;
+}
+
+#sud { 
+    padding-top: 150px;
+    margin-right: 2em;
+    font-family: 'Dancing Script', cursive;
+}
+
+#plage {
+    text-align: right;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+#para {
+    padding-bottom: 1em;
+    text-align: justify;
+    background: linear-gradient(to bottom, #a6bec1, #fafafa);
+}
+#parag {
+
+    padding-bottom: 1em;
+    text-align: justify;
+    background: linear-gradient(to bottom, #a6bec1, #fafafa);
+    
+}
+#paragr,
+#paragra {
+    padding-bottom: 1em;
+    text-align: justify;
+    background: linear-gradient(to bottom, #a6bec1, #fafafa);
+    
+}
+
+#bande {
+    padding-left: 2em;
+    padding-top: 1em;
+}
+#bande::first-letter {
+    font-size: 1.5em; 
+    font-weight: bold; 
+}
+#sude {
+    padding-left: 1.5em;
+    font-size: 1.5em;
+}
+#sudes,
+#sudest,
+#sudeste {
+    padding-left: 1.5em;
+    font-size: 1.5em;
+    padding-top:1.1em;
+}
+
+
+
+
+
+.site-touristique,
+.site-touristique1,
+.site-touristique4,
+.site-touristique5 {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: rgb(116, 146, 163);
+    border-radius: 8px;
+}
+
+.site-touristique img,
+.site-touristique1 img,
+.site-touristique4 img {
+    max-width: 25%;
+    height: auto;
+    margin: 25px 25px 25px 25px;
+    border-radius: 30px;
+}
+
+.texte {
+    padding: 20px;
+    text-align: justify;
+}
+
+.texte h2 {
+    margin-bottom: 10px;
+}
+
+.site-touristique:hover img,
+.site-touristique1:hover img {
+    transform: scaleX(1.1); 
+}
+
+
+.site-touristique2,
+.site-touristique3,
+.site-touristique6,
+.site-touristique7 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+    background-color: rgb(116, 146, 163);
+    border-color: 8px;
+}
+
+.site-touristique2 img {
+    width: 113em;
+    height: 15em;
+    margin: 25px 25px 25px 25px;
+    border-radius: 30dvh;
+}
+
+
+.site-touristique2:hover img,
+.site-touristique3:hover img,
+.site-touristique16:hover img, 
+.site-touristique17:hover img {
+    transform: rotate(5deg); 
+    animation: shake 0.5s ease-in-out infinite; 
+}
+
+@keyframes shine {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    20%, 50%, 80% {
+        transform: translateX(-5px);
+    }
+    40%, 60% {
+        transform: translateX(5px); 
+    }
+}
+
+.texte {
+    padding: 20px;
+    text-align: justify;
+}
+
+.texte h2 {
+    margin-bottom: 10px;
+}
+
+
+.site-touristique3 img {
+    width: 370px;
+    height: 15em;
+    margin: 25px 25px 25px 25px;
+    border-radius: 30dvh;
+}
+
+
+
+.site-touristique4:hover img {
+    transform: translateY(-5px);
+    animation: bounce 0.5s ease-in-out infinite;
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.site-touristique5 img {
+    width: 33em;
+    height: 14em;
+    margin: 25px 25px 25px 25px;
+    border-radius: 30px; 
+}
+
+
+.site-touristique5:hover img {
+    animation: matrix3dAnimation 2s ease-in-out forwards reverse;
+}
+
+
+@keyframes matrix3dAnimation {
+    0% {
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    25% {
+        transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1);
+    }
+    50% {
+        transform: matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1); 
+    }
+    75% {
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    100% {
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); 
+    }
+}
+
+.site-touristique6 img {
+    width: 90em;
+    height: 15em;
+    margin: 25px 25px 25px 25px;
+    border-radius:30lvh;
+    transition: transform 0.3s ease;
+}
+
+
+.site-touristique6:hover img {
+    filter:grayscale(100%); 
+}
+
+
+.site-touristique7 img {
+    width: 130em;
+    height: 15em;
+    margin: 25px 25px 25px 25px;
+    border-radius: 30lvh
+}
+
+
+.site-touristique7:hover img,
+.site-touristique12:hover img,
+.site-touristique13:hover img,
+.site-touristique14:hover img,
+.site-touristique15:hover img {
+    filter: brightness(150%); 
+}
+
+.site-touristique,
+.site-touristique1,
+.site-touristique2,
+.site-touristique3,
+.site-touristique4,
+.site-touristique5,
+.site-touristique6,
+.site-touristique7 {
+    border: 8px ridge #808080;
+    border-radius: 18px; 
+}
+
+.site-touristique8,
+.site-touristique11 {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: rgb(116, 146, 163);
+    border: 8px ridge #808080; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 5px 5px #A9A9A9;
+    
+}
+
+.site-touristique8 img {
+    width: 24%; 
+    height: 15em;
+    border-bottom: 8px solid #ede8e8; 
+    margin: 25px 25px 25px 25px;
+    transition: transform 0.3s ease;
+    border-radius: 30cqmax;
+}
+
+.site-touristique8:hover img,
+.site-touristique11:hover img  {
+    transform: scale(1.05);
+}
+
+.site-touristique8 .texte,
+.site-touristique11 .texte {
+    padding: 20px;
+}
+
+
+.site-touristique9,
+.site-touristique10,
+.site-touristique12,
+.site-touristique13
+ {
+    display: flex;
+    flex-direction: row-reverse; 
+    margin-bottom: 20px;
+    background-color: rgb(116, 146, 163);
+    border: 8px ridge #808080; 
+    border-radius: 10px; 
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 5px #A9A9A9;
+    
+}
+
+.site-touristique9 img,
+.site-touristique10 img {
+    width: 350px; 
+    height: 15em;
+    border-bottom: 8px solid #ede8e8;
+    transition: transform 0.3s ease;
+    margin: 25px 25px 25px 25px;
+    border-radius: 15cqmax;
+    
+}
+
+
+.site-touristique9 img,
+.site-touristique10 img {
+    transition: box-shadow 0.3s ease;
+}
+
+
+.site-touristique9 .texte,
+.site-touristique10 .texte,
+.site-touristique12,
+.site-touristique13 {
+ 
+    padding: 20px;
+}
+
+
+.site-touristique9:hover img,
+.site-touristique10:hover img {
+    transform: translate(10px, 10px) rotate(10deg); 
+}
+
+.site-touristique12 img,
+.site-touristique11 img {
+    width: 355px; 
+    height: 16em;
+    border-bottom: 8px solid #ede8e8;
+    transition: transform 0.3s ease;
+    margin: 25px 25px 25px 25px;
+    border-radius:10fr;
+    
+}
+
+.site-touristique13 img {
+    width: 355px; 
+    height: 17em;
+    border-bottom: 8px solid #ede8e8;
+    transition: transform 0.3s ease;
+    margin: 25px 25px 25px 25px;
+    border-radius:10fr;
+    
+}
+
+
+.site-touristique14,
+.site-touristique15 {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: rgb(116, 146, 163);
+    border: 8px ridge #808080; 
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 5px #A9A9A9;
+    
+}
+
+
+.site-touristique14 img {
+    width: 24%; 
+    height: 15em;
+    border-bottom: 8px solid #ede8e8; 
+    margin: 25px 25px 25px 25px;
+    transition: transform 0.3s ease;
+    border-radius: 30cqmax;
+}
+
+.site-touristique15 img {
+    width: 350px;
+    height: 15em;
+    border-bottom: 8px solid #ede8e8;
+    transition: transform 0.3s ease;
+    margin: 25px 25px 25px 25px;
+    border-radius: 15cqmax;
+    
+}
+
+.site-touristique16,
+.site-touristique17
+ {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+    background-color: rgb(116, 146, 163);
+    border: 8px ridge #808080;
+    border-radius: 10px; 
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 5px #A9A9A9;
+    
+}
+
+
+.site-touristique17 img {
+    width: 135em;
+    height: 15em;
+    margin: 25px 25px 25px 25px;
+    border-radius: 30dvh;
+    transition: transform 0.3s ease;
+}
+
+.site-touristique16 img {
+    width: 65em;
+    height: 15em;
+    margin: 25px 25px 25px 25px;
+    border-radius: 30dvh;
+    transition: transform 0.3s ease;
+}
+
+
+
+footer
+
+{
+    background-image: url("images/back122.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 3em;
+}
+
+footer ul p{
+    margin-top: 1.5em;
+}
+
+
+footer ul li
+{
+text-align: center;
+display:inline-block;
+text-align: center;
+padding-left: 3em;
+}
+
+.more p{
+    margin-right: 5em;
+        margin-top: 1em;
+}
+.more{
+    margin-top: 1em;
+}
+
+
+li
+{
+    padding:2px
+}
+
+
+#imi
+{
+    width: 110px;
+    height:100px;
+}
+
+
+
+
+
+#min
+{
+    width:110px;
+    height:100px;
+    margin-left: 15em;
+}
+
+
+
+#bat
+{
+    width: 110px;
+    height:100px;
+    margin-left: 10em;
+}
+
+
+#ad
+{
+    margin-left: 15em;
+}
+
+#ba
+{
+    margin-left: 10em;
+}
+
+.texte1 {
+    margin-top: 4em;
+}
+
+.texte2 {
+    margin-top: 4em;
+}
+
+.texte3 {
+    margin-top: 4em;
+}
+.texte4 {
+    margin-top: 4em;
+    margin-left: 1em;
+}

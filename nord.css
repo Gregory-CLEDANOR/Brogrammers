@@ -1,0 +1,363 @@
+body
+{
+    background-color: #92bbfe;
+    font-size: 16px;
+    padding-top: 1em;
+
+}
+
+body
+{
+    margin:0;
+    padding:0;
+    background-color:azure;
+}
+
+
+nav ul li a:hover{
+    color: blue;
+    font-size:15px;
+}
+
+
+.field
+{
+    width: 90em;
+    background-color:aliceblue;
+    display:flex;
+    height:30px;
+    padding-left: 4.6em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3em;
+    position: fixed;
+    margin-bottom: 2em;
+}
+
+.field ul
+{
+    list-style: none;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.field ul li
+{
+    display:inline-block;
+    padding: 0px 15px;
+    position:relative;
+    color:black;
+    font-size: 14px;
+    font-family:sans-serif;
+}
+
+.field ul li a
+{
+    display:inline-block;
+    color:black;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:sans-serif;
+    text-align: center;
+}
+
+
+.field ul li ul.drop li
+{
+   display:block; 
+   text-align: left;
+   color:cornflowerblue;
+}
+
+
+.field ul li ul.drop
+{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:auto;
+    position:absolute;
+    background-color:white;
+    display:none;
+    text-align: center;
+    border-radius: 7px;
+    border-style: ridge;
+}
+
+
+.drop{
+    padding-left: 2px;
+}
+
+.drop li
+{
+    display:block;
+    margin-left:0;
+
+}
+
+ul li:hover ul.drop
+{
+    display:block;
+}
+
+
+#image {
+    margin-top: 15px;
+    height: 250px;
+    border-radius: 10px;
+    background: url('images/nord.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 8px 4px #1c1a19;
+    margin-bottom: 20px;
+}
+
+#nord { 
+    padding-top: 150px;
+    margin-right: 2em;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+#plage {
+    text-align: right;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+
+
+
+
+
+.site-touristique {
+    overflow: hidden;
+    border: 900px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    background-color:#B4D4FF;
+    border-color: bisque;
+    border: 5px solid white;
+    
+ 
+}
+
+.site-touristique img {
+    float: left; 
+    width: 250px;
+    height: 180px;
+    margin: 25px 25px 25px 25px;
+    border-radius:10ic;
+    
+}
+
+
+.site-touristique1 {
+    overflow: auto; 
+    border: 900px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    background-color: #B4D4FF;
+    border-color: bisque;
+    border: 5px solid white;
+}
+
+.site-touristique1 img {
+    float: left; 
+    width: 250px;
+    height: 250px;
+    margin: 25px 25px 25px 25px;
+    border-radius:10ic;
+}
+
+.site-touristique2 {
+    overflow: auto;
+    border: 900px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    background-color: #B4D4FF;
+    border-color: bisque;
+    border: 5px solid white; 
+}
+
+.site-touristique2 img {
+    float: left; 
+    width: 250px;
+    height: 250px;
+    margin: 25px 25px 25px 25px;
+    border-radius:10ic;
+}
+
+.site-touristique3, .site-touristique4, .site-touristique5, .site-touristique6, .site-touristique7{
+    overflow: hidden;
+    border: 900px;
+    
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    background-color:#B4D4FF;
+    border-color: bisque;  
+    border: 5px solid white ;
+}
+
+.site-touristique3 img, .site-touristique4 img, .site-touristique5 img, .site-touristique6 img, .site-touristique7 img{
+    float: left; 
+    width: 250px;
+    height: 250px;
+    margin: 25px 25px 25px 25px;
+    border-radius:10ic;
+}
+
+
+
+footer
+
+{
+    background-image: url("images/back122.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 3em;
+}
+
+
+footer ul li
+{
+text-align: center;
+display:inline-block;
+text-align: center;
+padding-left: 3em;
+}
+
+.more p{
+    margin-right: 5em;
+        margin-top: 1em;
+}
+.more{
+    margin-top: 1em;
+}
+
+
+li
+{
+    padding:2px
+}
+
+
+#imi
+{
+    width: 110px;
+    height:100px;
+}
+
+
+
+
+
+#min
+{
+    width:110px;
+    height:100px;
+    margin-left: 15em;
+}
+
+
+
+#bat
+{
+    width: 110px;
+    height:100px;
+    margin-left: 10em;
+}
+
+
+#ad
+{
+    margin-left: 15em;
+}
+
+#ba
+{
+    margin-left: 10em;
+}
+
+.text {
+    text-align: justify;
+    margin-right: 10px;
+    margin-top: 2em;
+    align-items: center;
+    font-family: 'Yellowtail', cursive;
+}
+
+.text1 {
+    text-align: justify;
+    margin-right: 10px;
+    margin-top: 5em;
+    align-items: center;
+    font-family: 'Yellowtail', cursive;
+}
+
+
+
+.text2 {
+    text-align: justify;
+    margin-right: 10px;
+    margin-top: 6em;
+    align-items: center;
+    font-family: 'Yellowtail', cursive;
+}
+
+.text3 {
+    text-align: justify;
+    margin-right: 10px;
+    margin-top: 6em;
+    align-items: center;
+    font-family: 'Yellowtail', cursive;
+}
+
+
+.text4 {
+    text-align: justify;
+    margin-right: 10px;
+    margin-top: 6em;
+    align-items: center;
+    font-family: 'Yellowtail', cursive;
+}
+.text5 {
+    text-align: justify;
+    margin-right: 10px;
+    margin-top: 3em;
+    align-items: center;
+    font-family: 'Yellowtail', cursive;
+}
+.text6 {
+    text-align: justify;
+    margin-right: 10px;
+    margin-top: 4em;
+    align-items: center;
+    font-family: 'Yellowtail', cursive;
+}
+
+
+#Intro {
+    text-align: justify;
+    margin-left: 0.5em;
+    padding-bottom: 1em;
+    background: linear-gradient(to bottom, #c7cdd6, #fafafa);
+    font-family: 'Yellowtail', cursive;
+    
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#Intro::first-letter {
+    font-size: 2em;
+    font-weight: bold; 
+}

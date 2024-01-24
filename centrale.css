@@ -1,0 +1,458 @@
+body
+{
+    background-color: #bcc6d6;
+    font-size: 16px;
+    padding-top: 1em;
+
+}
+
+
+nav{
+    margin-top: -2em;
+}
+nav ul li a:hover{
+    color:blue;
+    font-size:15px;
+}
+
+
+.field
+{
+    border-radius: 3em;
+    width:80em;
+    background-color:white;
+    display:flex;
+    height:30px;
+    align-items: center;
+    justify-content: center;
+    padding:0 5%;
+    position:fixed;
+    z-index: 2;
+    margin-left: 1.7em;
+}
+
+.field ul
+{
+    list-style: none;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.field ul li
+{
+    display:inline-block;
+    padding: 0px 15px;
+    position:relative;
+    color: black;
+    font-size: 14px;
+    font-family:sans-serif;
+}
+
+.field ul li a
+{
+    display:inline-block;
+    color:black;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:sans-serif;
+    text-align: center;
+}
+
+.field ul li ul.drop li
+{
+   display:block; 
+   text-align: left;
+   color:cornflowerblue;
+}
+
+
+
+.field ul li ul.drop li a
+{
+   display:block; 
+   text-align: left;
+   color:black;
+}
+
+
+.field ul li ul.drop
+{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:auto;
+    position:absolute;
+    background-color:white;
+    display:none;
+    text-align: center;
+    border-radius: 7px;
+    border-style: ridge;
+}
+
+
+
+
+.drop{
+    padding-left: 2px;
+}
+
+.drop li
+{
+    display:block;
+    margin-left:0;
+
+}
+
+ul li:hover ul.drop
+{
+    display:block;
+}
+
+
+
+
+
+
+#ho{
+    text-align:right;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 1em;
+}
+
+#hotel{
+
+    text-align: right;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 3em;
+}
+
+.central {
+    text-align: left;
+    
+}
+
+.central h2 {
+    margin: 0;
+}
+
+.central p {
+    margin: 10px 0;
+}
+
+
+.Fort p,.Tour p,.Marriott p,.Rancho p,.Peligre p,.OGF p,.palai p,.gonav p{
+    text-align: justify;
+    margin-right: 1em;
+
+}
+
+
+.Fort {
+    overflow: hidden;
+    border: 900px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    background-color:#ADD1FC;
+    border-color: bisque;
+    border: 5px solid white;
+    
+ 
+}
+
+.Fort img {
+    float: left; 
+    width: 250px;
+    height: 180px;
+    margin: 25px 25px 25px 25px;
+    border-radius:10ic;
+    
+}
+
+
+.Tour {
+    overflow: auto; 
+    border: 900px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    background-color: #ADD1FC;
+    border-color: bisque;
+    border: 5px solid white;
+}
+
+.Tour img {
+    float: left; 
+    width: 250px;
+    height: 250px;
+    margin: 25px 25px 25px 25px;
+    border-radius:10ic;
+}
+
+.Marriott {
+    overflow: auto;
+    border: 900px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    background-color: #ADD1FC;
+    border-color: bisque;
+    border: 5px solid white; 
+}
+
+.Marriott img {
+    float: left; 
+    width: 250px;
+    height: 250px;
+    margin: 25px 25px 25px 25px;
+    border-radius:10ic;
+}
+
+.Rancho {
+    overflow: auto;
+    border: 900px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    background-color: #ADD1FC;
+    border-color: bisque;  
+    border: 5px solid white ;
+}
+
+.Rancho img {
+    float: left; 
+    width: 250px;
+    height: 250px;
+    margin: 25px 25px 25px 25px;
+    border-radius:10ic;
+}
+
+.Peligre {
+    overflow: auto;
+    border: 900px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    background-color: #ADD1FC;
+    border-color: bisque; 
+    border: 5px solid white;
+}
+
+.Peligre img {
+    float: left; 
+    width: 250px;
+    height: 250px; margin: 25px 25px 25px 25px;
+    border-radius:10ic;
+}
+
+.OGF {
+    overflow: auto;
+    border: 900px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    background-color: #ADD1FC;
+    border-color: bisque; 
+    border: 5px solid white ;
+}
+
+.OGF img {
+    float: left; 
+    width: 250px;
+    height: 250px;
+    margin: 25px 25px 25px 25px;
+}
+
+.palai {
+    overflow: auto; 
+    border: 900px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    background-color: #ADD1FC;
+    border-color: bisque; 
+    padding-bottom: 3em;
+    border: 5px solid #ccc;
+    border: 5px solid white ;
+}
+
+.palai img {
+    float: left; 
+    width: 250px;
+    height: 250px;
+    margin: 25px 25px 25px 25px;
+    border-radius:10ic;
+}
+
+.gonav {
+    overflow: auto;
+    border: 900px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    background-color: #ADD1FC;
+    border-color: bisque;
+    border: 5px solid white ;
+}
+
+.gonav img {
+    float: left; 
+    width: 250px;
+    height: 250px;
+    margin: 25px 25px 25px 25px;
+}
+
+
+
+footer
+
+{
+    background-image: url("images/back122.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 3em;
+}
+
+
+footer ul li
+{
+text-align: center;
+display:inline-block;
+text-align: center;
+padding-left: 3em;
+}
+
+.more p{
+    margin-right: 5em;
+}
+
+.more{
+    margin-top: 2em;
+}
+
+li
+{
+    padding:2px
+}
+
+
+#imi
+{
+    width: 110px;
+    height:100px;
+}
+
+
+
+
+
+#min
+{
+    width:110px;
+    height:100px;
+    margin-left: 15em;
+}
+
+
+
+#bat
+{
+    width: 110px;
+    height:100px;
+    margin-left: 10em;
+}
+
+
+#ad
+{
+    margin-left: 15em;
+}
+
+#ba
+{
+    margin-left: 10em;
+}
+
+
+#image12 {
+    position: relative;
+   
+    height: 20em;
+    z-index: 1;
+}
+
+#image12 h1{
+    justify-content: center;
+}
+
+#image12 img {
+    margin-top: 1em;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+}
+
+#plage12 {
+    position: absolute;
+    top: 50%; 
+    left: 60%;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+#sud12 { 
+    margin-right: 2em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.Texte1 {
+    font-family: 'Dancing Script', cursive; 
+}
+
+
+.Texte7 {
+    font-family: 'Dancing Script', cursive; 
+    margin-top: 4em;
+}
+
+
+.Texte8 {
+    font-family: 'Dancing Script', cursive; 
+    margin-top: 3em;
+}
+
+
+.Texte6 {
+    font-family: 'Dancing Script', cursive;
+    margin-top: 3em; 
+}
+.Texte5 {
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.Texte4 {
+    font-family: 'Dancing Script', cursive; 
+    margin-top: 1em;
+}
+
+.Texte3 {
+    font-family: 'Dancing Script', cursive; 
+    margin-top: 1em;
+}
+
+.Texte2 {
+    font-family: 'Dancing Script', cursive; 
+    margin-top: 3em;
+}
+
+
